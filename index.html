@@ -3,11 +3,19 @@
 <head>
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--fonts-->
+	<link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
+
+	<!--libraries-->
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
 	<style>
 		html, body {
 		    height: 100%;
 		    margin: 0;
 		    font-size: 20px;
+		    background-color: #fff;
 		}
 		a {
 			text-decoration: none;
@@ -15,7 +23,10 @@
 		nav {
 			width: 100%;
 			text-align: center;
-			padding-top: 20px;
+			padding-top: 30px;
+			padding-bottom: 20px;
+			font-family: 'Muli', sans-serif;
+			font-size: 17px;
 		}
 		.left {
 		    width: 20%;
@@ -28,29 +39,81 @@
 		    height: auto;
 		    position: absolute;
 		    right: 0;
-		    background: blue;
 		}
 
+
+		.nameTitle {
+			padding-top: 20px;
+			font-family: 'Bitter', serif;
+			font-size: 27px;
+			color: white;
+			text-shadow: 0.1em 0.1em #166888;
+			white-space: nowrap;
+		}
+		.profileImg {
+			padding-top: 25px;
+		}
+
+
+
+		.linkResponsive {
+			color: #166888;
+			display: block;
+			line-height: 40px;
+			transition: 0.2s;
+		}
+		.linkResponsive:hover {
+			color: white;
+		}
+		.WhiteCausePage {
+			color: white;
+		}
+
+		
 		.subMenu {
 			width: 95%;
 			text-align: center;
 			margin: 0 auto;
-			border-bottom: 2px solid #999;			
+			border-bottom: 2px solid #909090;	
+			font-size: 13px;	
+			font-family: 'Muli', sans-serif;				
+			margin-top: 25px;
+			padding-bottom: 25px;			
 		}
 		.subMenuItem {
 			padding-left: 25px;
-			padding-right: 25px;
-			line-height: 85px;
+			padding-right: 25px;			
+			color: #909090;
+			transition: 0.2s;
+			white-space: nowrap;
 		}
+		.subMenuItem:hover {
+			color: black;
+		}
+
+
 		.inhoud {
 			margin: 0 auto;
 			width: 95%;
-			border: 1px solid black;
+		}
+		.inhoudTitle {
+			font-family: 'Muli', sans-serif;	
+			font-size: 27px;
+		}
+		.inhoudText {
+			font-family: 'Muli', sans-serif;	
+			font-size: 15px;
+		}
+
+
+		.gridPadding {
+			padding-right: 25px;
 		}
 
 
 
-		@media screen and (max-width: 750px) {
+
+		@media screen and (max-width: 900px) {
 		    .left {
 		    	width: 100%;
 		    	height: initial;
@@ -60,36 +123,37 @@
 		    .right {
 			    width: 100%;
 			    height: auto;
-			    outline: 1px solid;
 			    position: absolute;
-			    background: blue;
 			}
 			.linkResponsive {
 				display: inline;
 				padding-left: 10px;
 				padding-right: 10px;
 			}
+			.nameTitle {
+				padding-top: 15px;
+			}
 			nav {
-				margin-top: 20px;
+				padding-top: 20px;
+
 			}
 		}
 
 
-.nameTitle {
-	padding-top: 40px;
-}
+
 
 	</style>
 </head>
 <body>
 
 <div class="left">
-	<center class="nameTitle">Daan De Vry</center>
+	<center><img class="profileImg" src="http://daandv.github.io/img/InfoFoto's/daan-round.png"></img></center>
+	<center class="nameTitle">Daan De Vry.</center>
 	<nav>
-		<p class="linkResponsive"><a href=#>Link 1</a></p>
-		<p class="linkResponsive"><a href=#>Link 2</a></p>
-		<p class="linkResponsive"><a href=#>Link 3</a></p>
-		<p class="linkResponsive"><a href=#>Link 4</a></p>
+		<a class="linkResponsive WhiteCausePage" href=#>Home</a>
+		<a class="linkResponsive" href=#>Wie</a>
+		<a class="linkResponsive" href=#>Taken</a>
+		<a class="linkResponsive" href=#>Contact</a>
 	</nav>
 </div>
 <div class="right">
@@ -98,9 +162,25 @@
 		<a href="#" class="subMenuItem">Sublink 1</a>
 		<a href="#" class="subMenuItem">Sublink 2</a>
 		<a href="#" class="subMenuItem">Sublink 3</a>
+		<a href="#" class="subMenuItem">Sublink 1</a>
+		<a href="#" class="subMenuItem">Sublink 2</a>
 	</div>
 
-	<div class="inhoud">qsdf
+	<div class="inhoud">
+
+		<div class="w3-row">
+		  <div class="w3-col s12 m12 l6 gridPadding">
+		  	<p class="inhoudTitle">Welkom op mijn website</p>
+			<p class="inhoudText">Pellentesque congue eget urna in luctus. Aenean vel venenatis lectus, et elementum nisl. Nunc eu elementum diam, et fringilla sapien. Donec commodo elementum imperdiet. Fusce in lacus eu lorem tincidunt malesuada quis sed ligula. Aliquam erat volutpat. Quisque dolor nulla, auctor nec dictum ut, viverra eu sem. Aenean sed lorem eget ligula commodo fermentum. Nunc eu placerat mi. Aenean quis nulla turpis. Nam gravida interdum est, eu ultrices dui malesuada sed. Nullam semper magna tempor nisi pharetra rhoncus. Vivamus eu condimentum ipsum. Suspendisse non quam id risus tristique dictum. Sed velit purus, facilisis a mauris nec, sagittis posuere sapien. Fusce volutpat ex id dui maximus, nec blandit eros suscipit.</p>
+		  </div>
+		  <div class="w3-col s12 m12 l6">		  	
+		  	<p class="inhoudTitle">Boodschap</p>
+			<p class="inhoudText">Deze website wordt nog doorheen het jaar aangevuld en verbeterd</p>
+		  </div>
+		</div>
+
+
+		
 	</div>
 </div>
 
