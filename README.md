@@ -9,3 +9,4 @@
 **10-11-2016**
 - iconen laten bewegen
 - startpagina "stageverslagen.html toegevoegd"
+- favicon toegevoegd
