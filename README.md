@@ -10,3 +10,7 @@
 - iconen laten bewegen
 - startpagina "stageverslagen.html toegevoegd"
 - favicon toegevoegd
+
+**13-11-2016**
+- stageverslagenpagina kalenderwidget en inhoud gegeven
+- favicon vervangen
