@@ -2,7 +2,7 @@
 **08-11-2016**
 - volledig responsief navigatiemenu gemaakt
 - nodige opmaak toegepast
-- grid gebruikt
+- grid gebruikt (w3.css)
 - submenu's gebruikt
 - iconen toegevoegd
 
