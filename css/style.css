@@ -94,13 +94,25 @@ nav {
 	font-family: 'Muli', sans-serif;	
 	font-size: 15px;
 }
-
-
-.gridPadding {
-	padding-right: 25px;
+.inhoudLink {
+    font-family: 'Muli', sans-serif;	
+	font-size: 15px;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.inhoudLink:hover {
+    color: #28aadc;
 }
 
 
+.korteUitlegStagedagenHalf {
+    width: 50%;
+}
+.korteUitlegStagedagen {
+background: -webkit-linear-gradient(black, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -127,4 +139,7 @@ nav {
 		padding-top: 20px;
 
 	}
+    .korteUitlegStagedagenHalf {
+        width: 100%;
+    }
 }
