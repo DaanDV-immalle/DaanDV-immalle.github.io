@@ -145,6 +145,7 @@ background: -webkit-linear-gradient(black, #fff);
 		display: inline;
 		padding-left: 10px;
 		padding-right: 10px;
+        line-height: initial;
 	}
 	.nameTitle {
 		padding-top: 15px;
@@ -159,6 +160,8 @@ background: -webkit-linear-gradient(black, #fff);
         transition: 0s;
         visibility: hidden;
         margin-top: 0px;
+        position: absolute;
+        left: -999999px;
     }
     
 }
