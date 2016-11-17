@@ -40,11 +40,14 @@ nav {
 	color: #fff;
 	text-shadow: 0.1em 0.1em #166888;
 	white-space: nowrap;
+    display:table;
+    margin:0 auto;
 }
-.profileImg {
-	margin-top: 25px;
+.profileImg {    
+    display:block;
+    margin:auto;
+    padding-top: 25px;
 }
-
 
 
 .linkResponsive {
