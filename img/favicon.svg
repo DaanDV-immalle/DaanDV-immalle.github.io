@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="39.431917"
-     inkscape:cy="32.517168"
+     inkscape:zoom="5.6"
+     inkscape:cx="37.198731"
+     inkscape:cy="2.5464029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,15 +64,26 @@
        cy="1020.3622"
        r="32" />
     <text
+       sodipodi:linespacing="125%"
+       id="text3336"
+       y="1041.7367"
+       x="19.024319"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.77000046px;line-height:125%;font-family:Bitter;-inkscape-font-specification:'Bitter, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#166888;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="1041.7367"
+         x="19.024319"
+         id="tspan3338"
+         sodipodi:role="line">D</tspan></text>
+    <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:51.77000046px;line-height:125%;font-family:'Aller Display';-inkscape-font-specification:'Aller Display, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="16.029497"
-       y="1038.9735"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.77000046px;line-height:125%;font-family:Bitter;-inkscape-font-specification:'Bitter, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.877757"
+       y="1037.5386"
        id="text3338"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3340"
-         x="16.029497"
-         y="1038.9735">D</tspan></text>
+         x="14.877757"
+         y="1037.5386">D</tspan></text>
   </g>
 </svg>
