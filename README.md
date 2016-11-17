@@ -18,3 +18,4 @@
 **17-11-2016**
 - aparte html-pagina voor elke stagedag aangemaakt en links gelegd
 - [issue #1](https://github.com/DaanDV-immalle/DaanDV-immalle.github.io/issues/1) opgelost (`<center>`-tags vervangen)
+- verschillende `<meta>`-tags toegevoegd 
