@@ -17,4 +17,4 @@
 
 **17-11-2016**
 - aparte html-pagina voor elke stagedag aangemaakt en links gelegd
-- issue #1 opgelost (´<center>´-tags vervangen)
+- issue #1 opgelost (`<center>`-tags vervangen)
