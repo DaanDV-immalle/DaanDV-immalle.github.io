@@ -1,9 +1,9 @@
 html, body {
-    height: 100%;
     margin: 0;
-    font-size: 20px;
     background-color: #fff;
 }
+
+
 a {
 	text-decoration: none;
 }
@@ -12,10 +12,8 @@ a {
 nav {
 	width: 100%;
 	text-align: center;
-    padding-top: 30px;
+    padding-top: 45px;
 	padding-bottom: 20px;
-	font-family: 'Muli', sans-serif;
-	font-size: 17px;
 }
 
 
@@ -46,14 +44,16 @@ nav {
 .profileImg {    
     display:block;
     margin:auto;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 
 .linkResponsive {
+    font-family: 'Muli', sans-serif;
+	font-size: 17px;
 	color: #166888;
 	display: block;
-	line-height: 40px;
+	line-height: 38px;
 	transition: 0.2s;
 }
 .linkResponsive:hover {
@@ -122,13 +122,51 @@ background: -webkit-linear-gradient(black, #fff);
 }
 
 .githubIcon {
-    margin-top: 50px;
+    margin-top: 55px;
     fill: #166888;
     transition: 0.2s;
      -webkit-transition-property: fill;
 }
 .githubIcon:hover {
     fill: #115570;
+}
+
+
+
+.homeVideo {
+    display: flex;      
+    justify-content: center;
+}
+.homeCenteredContent {
+    align-self: center;
+    text-align: center;
+}
+.homeTitle {
+    font-family: 'Bitter', serif;
+    color: #fff;
+    font-size: 75px;
+    line-height: 50px;
+}
+.homeSubTitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+    font-size: 60px;
+}
+.homeMeer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: 0.1em solid #166888;
+    color: #166888;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.homeMeer:hover {
+    border-color: #115570;
+    color: #115570;
 }
 
 
@@ -165,6 +203,12 @@ background: -webkit-linear-gradient(black, #fff);
         margin-top: 0px;
         position: absolute;
         left: -999999px;
+    }
+    .homeVideo {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        display: none;
     }
     
 }
