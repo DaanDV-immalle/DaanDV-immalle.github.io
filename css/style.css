@@ -107,6 +107,9 @@ nav {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
 }
+.inhoudTextMarginAfter {
+    margin-bottom: 1em;
+}
 .inhoudLink {
     font-family: 'Muli', sans-serif;	
 	font-size: 15px;
