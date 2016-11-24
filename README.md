@@ -24,3 +24,6 @@
 - videoachtergrond toegevoegd op de home pagina (jquery.vide.js)
 - smoothscroll gebruikt voor een geanimeerd scroll-effect
 - Enkele kleine dingen aangepast (padding, margin)
+
+**24-11-2016**
+- [issue #2](https://github.com/DaanDV-immalle/DaanDV-immalle.github.io/issues/2) opgelost (menu niet meer laten verspringen op mobiel)
