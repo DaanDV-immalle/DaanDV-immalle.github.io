@@ -62,14 +62,20 @@ ul {list-style-type: none;}
 }
 
 .days li .active {
-    padding: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
     background: #28aadc;
     color: white !important;
 }
 
 /* Eigen css */
 .dagBlokje {
-    padding: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
     background: #ddd;
     transition: 0.2s;
 }
