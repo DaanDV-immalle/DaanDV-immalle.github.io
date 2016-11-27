@@ -27,3 +27,6 @@
 
 **24-11-2016**
 - [issue #2](https://github.com/DaanDV-immalle/DaanDV-immalle.github.io/issues/2) opgelost (menu niet meer laten verspringen op mobiel)
+
+**27-11-2016**
+- links stageverslagen.html verbeterd (verwijzen naar id)
