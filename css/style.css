@@ -125,7 +125,7 @@ nav {
     width: 50%;
 }
 .korteUitlegStagedagen {
-background: -webkit-linear-gradient(black, #fff);
+  background: -webkit-linear-gradient(black, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -139,7 +139,6 @@ background: -webkit-linear-gradient(black, #fff);
 .githubIcon:hover {
     fill: #115570;
 }
-
 
 
 .homeVideo {
@@ -177,6 +176,10 @@ background: -webkit-linear-gradient(black, #fff);
     border-color: #115570;
     color: #115570;
 }
+
+
+
+
 
 
 @media screen and (max-width: 900px) {
