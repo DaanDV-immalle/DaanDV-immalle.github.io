@@ -160,7 +160,7 @@ nav {
     font-style: italic;
     font-weight: 100;
     color: #fff;
-    font-size: 60px;
+    font-size: 55px;
 }
 .homeMeer {
     font-family: 'Roboto', sans-serif;
@@ -179,11 +179,72 @@ nav {
 
 
 .takenBlok {
+    position: relative;
     height: 200px;
     width: 200px;
-    border: 1px solid gray;
     margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px #c4c4c4;
 }
+.takenInfo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    height: 56px;
+}
+.takenInfoTitle {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    color: #166888;
+    font-size: 20px;
+}
+.takenInfoText {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+}
+.takenInfo2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #166888;
+    text-align: center;
+    height: 56px;
+}
+.takenInfoTitle2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+}
+.takenInfoText2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    color: #fff;
+}
+.takenImage {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+.takenBlok:hover .takenImage {
+    opacity: 0.9;
+}
+.takenRij {
+    margin: 0 auto;
+    max-width: 100em;
+}
+.takenRijEerste {
+    margin-top: 40px;
+}
+.takenBlokW3 {
+    margin-bottom: 40px;
+}
+
 
 
 
