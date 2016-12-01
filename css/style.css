@@ -31,6 +31,7 @@ nav {
 }
 
 
+
 .nameTitle {
 	padding-top: 20px;
 	font-family: 'Bitter', serif;
@@ -176,6 +177,15 @@ nav {
     border-color: #115570;
     color: #115570;
 }
+
+
+.homeMarginBigger {
+    height: 100vh;
+}
+.homeIconImg {
+    height: 200px;   
+}
+
 
 
 .takenBlok {
