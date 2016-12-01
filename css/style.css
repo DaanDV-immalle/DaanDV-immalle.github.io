@@ -66,6 +66,7 @@ nav {
 
 
 .subMenu {
+    position: relative;
 	width: 95%;
 	text-align: center;
 	margin: 0 auto;
@@ -88,6 +89,20 @@ nav {
 .blackCausePage {
 	color: black;
 }
+.subMenuPijlOnly {
+    border-bottom: 2px solid #d9d9d9;	
+    width: 100%;
+}
+.subMenuPijlOnlyImg {
+    margin-top: 25px;
+	margin-bottom: 21px;
+    height: 19px;
+}
+.subMenuPijlInMenuImg {
+    position: absolute;
+    height: 19px;
+    left: 0;
+}
 
 
 .inhoud {
@@ -99,8 +114,8 @@ nav {
 	font-size: 27px;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
 }
 .inhoudText {
 	font-family: 'Muli', sans-serif;	
@@ -213,6 +228,7 @@ nav {
 .takenInfoText {
     font-family: 'Muli', sans-serif;
     font-size: 13px;
+    color: black;
 }
 .takenInfo2 {
     position: absolute;
@@ -259,6 +275,22 @@ nav {
 .itAutobiographyImg {
     height: 300px;
     margin-left: 40px;
+}
+
+
+.iframeLoaderParent {
+    width: 608px;
+    background:url(../img/iframeloader.gif) center center no-repeat;
+}
+
+
+.linkDotted {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.linkDotted:hover {
+    color: #28aadc;
+    border-bottom: 1px dotted #28aadc;
 }
 
 
