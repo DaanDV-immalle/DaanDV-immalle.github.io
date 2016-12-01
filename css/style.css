@@ -256,6 +256,12 @@ nav {
 }
 
 
+.itAutobiographyImg {
+    height: 300px;
+    margin-left: 40px;
+}
+
+
 
 
 
@@ -310,6 +316,17 @@ nav {
     .subMenuItem {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .itAutobiographyImg {
+        margin-left: 0px;
+        height: 200px;
+        display:block;
+        margin:auto;
+
     }
     
 }
