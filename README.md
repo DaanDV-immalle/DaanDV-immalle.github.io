@@ -31,9 +31,16 @@
 **27-11-2016**
 - links stageverslagen.html verbeterd (verwijzen naar id)
 
-**02-12-2016**
+**01-12-2016**
 - takenpagina gemaakt opmaak
 - welkomswoord toegevoegd
 - IT autobiography toegevoegd
 - IT-tapa toegevoegd
 - bij elke takenpagina een terugknop voorzien om een soort van app-effect te krijgen dat gemakkelijk werkt
+
+**02-12-2016**
+- takenpagina verwijderd omdat dit niet de bedoeling was van de GIP website
+- IT profile toegevoegd
+- FAQ OfficeMix toegevoegd
+- homepage verder aangevuld
+- korte zelfreflectie toegevoegd
