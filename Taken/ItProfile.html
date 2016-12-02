@@ -16,8 +16,13 @@
 	<!--(externe)libraries-->
 	<link rel="stylesheet" href="../css/w3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>    
 	<link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.circlechart.js"></script>
+    
+
+
 
 </head>
 <body>
@@ -38,21 +43,51 @@
 
 	<div class="inhoud">
         <div class="subMenuPijlOnly"><a href="../taken.html"><img class="subMenuPijlOnlyImg" src="../img/arrowBack.png"></a></div>
-        <p class="inhoudTitle">IT-Tapa instructiefilmpje</p>
-        <p class="inhoudText">Veel kijkplezier!<br> Dit filmpje is samen gemaakt met 
-        <svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>
-        <a class="linkDotted" href="https://cedrics-immalle.github.io/CedricS-github.io/Taken.html" target="_blank">
-        Cedric Sas </a></p><br>
-
-
         
-        <div class="iframeLoaderParent"><iframe class="iframeItTapa" src="https://mix.office.com/embed/a31ntnyk0c1c" width="608" height="391" frameBorder="0"></iframe></div>
+        <p class="inhoudTitle">Webtalen</p>
+        <div class="circlechartWrapper">
+            <div class="w3-row">
+                <div class="w3-col w3-green l4  m4 s12">
+                    <div class="circlechartSubBlok">
+                        <span class="circlechartTitle">html</span>
+                        <div class="circlechart" data-percent="65"></div>
+                    </div>
+                </div>
+                <div class="w3-col w3-grey l4 m4 s12">
+                    <span class="circlechartTitle">css</span>
+                    <div class="circlechart" data-percent="85"></div>
+                </div>
+                <div class="w3-col w3-green l4 m4 s12">
+                    <span class="circlechartTitle">javascript</span>
+                    <div class="circlechart" data-percent="80"></div>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
     
 
         
 </div>
 
+        <script>
+        $('.circlechart').percentcircle({
+            animate : true,
+            diameter : 100,
+            guage: 2,
+            coverBg: '#fff',
+            bgColor: '#efefef',
+            fillColor: '#5c93c8',
+            percentSize: '15px',
+            percentWeight: 'normal'
+        });
+
+    </script>
+    
+    
+    
 </body>
 </html>
 
