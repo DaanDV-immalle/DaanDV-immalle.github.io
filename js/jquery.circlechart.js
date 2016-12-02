@@ -9,7 +9,6 @@
 					guage: 2,
 					coverBg: '#fff',
 					bgColor: '#efefef',
-					fillColor: '#5c93c8',
 					percentSize: '15px',
 					percentWeight: 'normal'
 				},
@@ -45,7 +44,7 @@
 					    'vertical-align': 'middle',
 					    'font-size': defaults.percentSize,
 					    'font-weight': defaults.percentWeight,
-					    'color': defaults.fillColor
+
                     }
 				};
 			
