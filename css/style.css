@@ -64,6 +64,22 @@ nav {
 }
 
 
+.navFooter {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 17px;
+    left: 0;
+    right: 0;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    color: #08445b;
+}
+.navFooterFaq {
+    color: #08445b;
+    text-decoration: underline;
+}
+
+
 .subMenu {
     position: relative;
 	width: 95%;
@@ -138,8 +154,8 @@ nav {
 
 
 
-.halveBreedteMobielVolledig {
-    width: 50%;
+.minderBreedteMobielVolledig {
+    width: 60%;
 }
 
 
@@ -198,11 +214,25 @@ nav {
 }
 
 
+.homeIconIcon {
+    color: #c1bfbf;
+    font-size: 75px;
+}
 .homeMarginBigger {
     height: 100vh;
 }
-.homeIconImg {
-    height: 200px;   
+.homeIconGridRij {
+    background-color: #ededed;
+}
+
+.homeIconTitle {
+    font-family: 'Bitter', serif;
+    color: #166888;
+    font-size: 20px;
+}
+.iconInCircle {
+    align-self: center;
+    text-align: center;
 }
 
 
@@ -284,6 +314,13 @@ nav {
 .iframeLoaderParent {
     width: 608px;
     background:url(../img/iframeloader.gif) center center no-repeat;
+}
+.videoItTapaMobile {
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    left: -999999px;  
+    
 }
 
 
@@ -372,7 +409,7 @@ nav {
         padding-top: 15px;
         padding-bottom: 18px;
 	}
-    .halveBreedteMobielVolledig {
+    .minderBreedteMobielVolledig {
         width: 100%;
     }
     .githubIcon {
@@ -395,6 +432,23 @@ nav {
     .circlechartWrapper {
         width: 100%;
     }
+    .iframeLoaderParent {
+        visibility: hidden;
+        position: absolute;
+        left: -999999px;
+    }
+    .iframeItTapa {
+        visibility: hidden;
+        position: absolute;
+        left: -999999px;    
+    }
+    .videoItTapaMobile {
+        visibility: visible;
+        position: initial;
+
+    }
+
+    
     
 }
 
@@ -404,7 +458,11 @@ nav {
         height: 200px;
         display:block;
         margin:auto;
-
+    }
+    .navFooter {
+        visibility: hidden;
+        position: absolute;
+        left: -999999px;  
     }
     
 }
