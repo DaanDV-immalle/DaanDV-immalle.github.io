@@ -375,10 +375,11 @@ nav {
     width: 100px;
 }
 .circlechartTitleCode {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
     background-color: #2b2b2b;
     border: 2px solid #2b2b2b;
     border-radius: 3px;
-    font-family: consolas;
     color: #fff;
     padding: 2px 5px 2px 5px;
 }
