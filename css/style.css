@@ -4,8 +4,8 @@ html, body {
 }
 
 
-a:-webkit-any-link {
-    color: #000;
+a{
+    text-decoration: none;
 }
 
 
@@ -29,7 +29,6 @@ nav {
     position: absolute;
     right: 0;
 }
-
 
 
 .nameTitle {
@@ -131,6 +130,7 @@ nav {
 	font-size: 15px;
     text-decoration: underline;
     transition: 0.2s;
+    color: #000;
 }
 .inhoudLink:hover {
     color: #28aadc;
@@ -145,6 +145,7 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 .githubIcon {
     margin-top: 55px;
@@ -200,7 +201,6 @@ nav {
 .homeIconImg {
     height: 200px;   
 }
-
 
 
 .takenBlok {

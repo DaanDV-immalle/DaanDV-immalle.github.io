@@ -78,6 +78,7 @@ ul {list-style-type: none;}
     padding-right: 5px;
     background: #ddd;
     transition: 0.2s;
+    color: #777;
 }
 .dagBlokje:hover {
     background: #28aadc;
