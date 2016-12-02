@@ -158,6 +158,9 @@ nav {
 .minderBreedteMobielVolledig {
     width: 60%;
 }
+.minderBreedteMobielVolledigWelkomswoord {
+    width: 80%;
+}
 
 
 .korteUitlegStagedagen {
@@ -217,19 +220,28 @@ nav {
 
 .homeIconIcon {
     color: #c1bfbf;
-    font-size: 75px;
+    font-size: 65px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 .homeMarginBigger {
     height: 100vh;
 }
 .homeIconGridRij {
     background-color: #ededed;
+    padding-bottom: 20px;
 }
 
 .homeIconTitle {
     font-family: 'Bitter', serif;
     color: #166888;
     font-size: 20px;
+}
+.homeIconText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #115570;
 }
 .iconInCircle {
     align-self: center;
@@ -411,6 +423,9 @@ nav {
         padding-bottom: 18px;
 	}
     .minderBreedteMobielVolledig {
+        width: 100%;
+    }
+    .minderBreedteMobielVolledigWelkomswoord {
         width: 100%;
     }
     .githubIcon {
