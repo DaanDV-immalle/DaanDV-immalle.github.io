@@ -4,7 +4,7 @@ html, body {
 }
 
 
-a {
+a:-webkit-any-link {
     color: #000;
 	text-decoration: none;
 }
