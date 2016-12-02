@@ -63,6 +63,10 @@ nav {
 .WhiteCausePage {
 	color: #fff;
 }
+.linkResponsiveDropdown {
+    width: 100%;
+    border: 1px solid white;
+}
 
 
 .navFooter {
@@ -225,7 +229,7 @@ nav {
     margin-bottom: 5px;
 }
 .homeMarginBigger {
-    height: 100vh;
+    height: 40px;
 }
 .homeIconGridRij {
     background-color: #ededed;
