@@ -158,7 +158,6 @@ nav {
 }
 
 
-
 .minderBreedteMobielVolledig {
     width: 60%;
 }
@@ -167,10 +166,25 @@ nav {
 }
 
 
-.korteUitlegStagedagen {
-  background: -webkit-linear-gradient(black, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.stageverslagenTumbBlock {
+    height: 58px;
+    width: 58px;   
+    display: inline-table;
+    position: relative;
+}
+.stageverslagenTumbBlock:hover .stageverslagenImgTumbImage {
+    opacity: 0.93;
+}
+
+.stageverslagenImgTumbImage {
+    position: absolute;
+    transition: 0.2s;
+}
+.stageverslagenImgTumbPlus {                
+    position: absolute;
+}
+.sl-caption {
+    font-family: sans-serif !important;
 }
 
 
