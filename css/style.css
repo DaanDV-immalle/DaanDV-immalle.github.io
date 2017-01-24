@@ -186,7 +186,15 @@ nav {
 .sl-caption {
     font-family: sans-serif !important;
 }
-
+.sl-close:focus {
+	outline: none;   
+}
+.sl-prev:focus {
+	outline: none;   
+}
+.sl-next:focus {
+	outline: none;   
+}
 
 .githubIcon {
     margin-top: 55px;
