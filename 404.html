@@ -13,16 +13,155 @@
 	<link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Muli:300,400' rel='stylesheet' type='text/css'>
 
-	<!--(externe)libraries-->
-	<link rel="stylesheet" href="css/w3.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/calendar.css">
-    <link rel="stylesheet" href="css/simplelightbox.css">
-   	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>    
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/simple-lightbox.js"></script>
+    <style>
+    html, body {
+        margin: 0;
+        background-color: #fff;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+
+    nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+    .inhoud {
+        margin: 0 auto;
+        width: 95%;
+    } 
+    .inhoudTitle {
+        font-family: 'Muli', sans-serif;	
+        font-size: 27px;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        padding-bottom: 0.8em;
+        padding-top: 0.8em;
+    }
+    .inhoudText {
+        font-family: 'Muli', sans-serif;	
+        font-size: 15px;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+    }
+    .nameTitle {
+        padding-top: 20px;
+        font-family: 'Bitter', serif;
+        font-size: 27px;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 0.1em 0.1em #166888;
+        white-space: nowrap;
+        display:table;
+        margin:0 auto;
+    }
+    .profileImg {    
+        display:block;
+        margin:auto;
+        padding-top: 35px;
+    } 
+    .left {
+        width: 20%;
+        height: 100%;
+        position: fixed;
+        background: #28aadc;
+    }
+    .right {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        right: 0;
+    } 
+    .navFooter {
+        position: absolute;
+        margin: 0 auto;
+        bottom: 17px;
+        left: 0;
+        right: 0;
+        font-family: 'Muli', sans-serif;
+        font-size: 12px;
+        color: #08445b;
+    }
+    .navFooterFaq {
+        color: #08445b;
+        text-decoration: underline;
+    } 
+    .linkResponsive {
+        font-family: 'Muli', sans-serif;
+        font-size: 17px;
+        color: #166888;
+        display: block;
+        line-height: 38px;
+        transition: 0.2s;
+    }
+    .linkResponsive:hover {
+        color: #fff;
+    }
+    .githubIcon {
+        margin-top: 55px;
+        fill: #166888;
+        transition: 0.2s;
+         -webkit-transition-property: fill;
+    }
+    .githubIcon:hover {
+        fill: #115570;
+    }
+        
+@media screen and (max-width: 900px) {
+    .left {
+    	width: 100%;
+    	height: initial;
+    	position: relative;
+    	display: block;
+    }
+    .right {
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	}
+	.linkResponsive {
+		display: inline;
+		padding-left: 4px;
+		padding-right: 4px;
+        line-height: initial;
+        font-size: 14px;        
+	}
+    .profileImg {    
+        padding-top: 20px;
+        height: 110px;
+    }
+	.nameTitle {
+		padding-top: 5px;
+        font-size: 21px;
+	}
+	nav {
+        padding-top: 15px;
+        padding-bottom: 18px;
+	}
+    .githubIcon {
+        transition: 0s;
+        visibility: hidden;
+        margin-top: 0px;
+        position: absolute;
+        left: -999999px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .navFooter {
+        visibility: hidden;
+        position: absolute;
+        left: -999999px;  
+    }
+    
+}
+    </style>
 
 </head>
 <body>
@@ -47,8 +186,8 @@
 
 	<div class="inhoud">
         <p class="inhoudTitle">Helaas :(</p>
-        <p class="inhoudText inhoudTextMarginAfter">De pagina die u probeert te bereiken bestaat niet.</p>
-        <img class="fourofourGif" src="https://admin.mashable.com/wp-content/uploads/2013/07/Dr.-Who.gif" />
+        <p class="inhoudText">De pagina die u probeert te bereiken bestaat niet.</p><br>
+        <img class="fourofourGif" src="http://giphy.com/gifs/dank-rn1xsrH5JB1E4" />
         
     </div>
     
