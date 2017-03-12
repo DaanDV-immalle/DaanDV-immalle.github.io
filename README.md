@@ -44,3 +44,6 @@
 - FAQ OfficeMix toegevoegd
 - homepage verder aangevuld
 - korte zelfreflectie toegevoegd
+
+**12-03-2017**
+- Overzicht van de huisstijl van Fidea en van mijn Website toegevoegd
