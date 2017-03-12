@@ -156,21 +156,21 @@ nav {
 }
 
 
-.stageverslagenTumbBlock {
+.galleryTumbBlock {
     height: 58px;
     width: 58px;   
     display: inline-table;
     position: relative;
 }
-.stageverslagenTumbBlock:hover .stageverslagenImgTumbImage {
+.galleryTumbBlock:hover .galleryImgTumbImage {
     opacity: 0.93;
 }
 
-.stageverslagenImgTumbImage {
+.galleryImgTumbImage {
     position: absolute;
     transition: 0.2s;
 }
-.stageverslagenImgTumbPlus {                
+.galleryImgTumbPlus {                
     position: absolute;
 }
 .sl-caption {
@@ -410,6 +410,12 @@ nav {
 }
 
 
+.huisstijlFideaImg {
+    height: 200px;
+    margin-left: 40px; 
+}
+
+
 
 
 
@@ -491,11 +497,14 @@ nav {
 }
 
 @media screen and (max-width: 1000px) {
-    .itAutobiographyImg {
+    .nextToTextImg {
         margin-left: 0px;
         height: 200px;
         display:block;
         margin:auto;
+    }
+    .nextToTextImgDisappear {
+        display: none
     }
     .navFooter {
         visibility: hidden;
