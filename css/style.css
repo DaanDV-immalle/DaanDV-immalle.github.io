@@ -123,6 +123,9 @@ nav {
     height: 19px;
     left: 0;
 }
+.subMenuLinkIcon {
+    fill: #909090; 
+}
 
 
 .inhoud {
@@ -416,6 +419,13 @@ nav {
 }
 
 
+.iframeResponsive {
+    width: 750px;
+    height: 421.88px;
+    
+}
+
+
 
 
 
@@ -490,6 +500,10 @@ nav {
         visibility: visible;
         position: initial;
 
+    }
+    .iframeResponsive {
+        width: 100%;
+        height: auto;
     }
 
     
