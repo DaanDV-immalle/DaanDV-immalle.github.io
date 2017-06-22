@@ -57,7 +57,7 @@
     </div>
 
     <div class="inhoud">
-        <p id="scrollTo" class="inhoudTitle">Even voorstellen</p>
+        <p id="scrollTo" class="inhoudTitle"><span id="tijdbegroeting"></span>, laat ik me voorstellen</p>
         <div class="minderBreedteMobielVolledigWelkomswoord">
             <p class="inhoudText inhoudTextMarginAfter">Ik ben Daan De Vry en volg informaticabeheer in het Immaculata instituut in Oostmalle. Ik vind het leuk om websites te maken maar ook systeem- en netwerkbeheer interesseert me wel. Mijn hobby’s daarentegen zijn voetbal en badminton.</p>
             <p class="inhoudText inhoudTextMarginAfter">Op deze website vind je een overzicht van mijn GIP-taken en extra informatie over wie ik ben, en wat mijn interesses zijn. Ik heb geprobeerd de website zo gebruiksvriendelijk mogelijk te maken en het navigatiemenu spreekt voor zich. De website wordt doorheen het schooljaar 2016-2017 nog aangevuld met taken, projecten en verbeterd waar nodig. </p>
@@ -90,7 +90,35 @@
 </div>
 
 <script src="js/navFooterYear.js"></script>
+
+<script>
+    //Begroeting op basis van tijd
+    var myDate = new Date(); 
+  
+    /* Voor de middag */
+    if ( myDate.getHours() < 12 )  
+    { 
+        resultaat = "Goedemorgend"; 
+    } 
+    else  /* van middag tot 17.00 */
+    if ( myDate.getHours() >= 12 && myDate.getHours() <= 17 ) 
+    { 
+        resultaat = "Goedemiddag"; 
+    } 
+    else  /* van 17 tot middernacht */
+    if ( myDate.getHours() > 17 && myDate.getHours() <= 24 ) 
+    { 
+        resultaat = "Goedeavond"; 
+    } 
+    else  /* iets is fout */
+    { 
+        resultaat = "Hallo"; 
+    } 
     
+    var tijdelement = document.getElementById("tijdbegroeting");
+    tijdelement.innerHTML = resultaat;
+</script>    
+
 </body>
 </html>
 
